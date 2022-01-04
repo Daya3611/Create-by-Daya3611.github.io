@@ -5,7 +5,7 @@
         <link rel="icon" href="em3.png" type="image/png">
         <title>Encouraging Mindset</title>
         <script>
-            alert ("WELCOME TO EXCELLENT COMPUTER INSTITUTE")
+            alert ("WELCOME TO Encouraging Mindset ")
         </script>
     </head>
         <body>
@@ -36,7 +36,7 @@
             <!--insta video-->
             <a href="https://www.instagram.com/reel/CXaVpwNq7C_/?utm_source=ig_web_copy_link"></a>
             <iframe width="1000" height="1000" src="https://www.instagram.com/reel/CXaVpwNq7C_/?utm_source=ig_web_copy_link" title="Instagram video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Addmition Form-->
+           
             <form>
                 First Name:-
                     <input type="text" placeholder="ENTER FIRST NAME" required><br><br>
