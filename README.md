@@ -124,12 +124,12 @@
                     Enter Your Description:<br>
                     <textarea rows="10" cols="35"></textarea><br> <br>
                      
-                    <input type="submit" <go to src="https://www.google.com"></go>
+                    <input type="submit" min="250" max="500">
                     <br> 
                     <input type="reset" min="1000" max="5000"><br><br>
                     <input type="image" src="submit.png" width="150" height="50">
-                    <input type="checkbox"> a 
-                    <input type="checkbox"> b          
+                    <input type="checkbox"> Yes
+                    <input type="checkbox"> No          
                     
                    
             </form>   
