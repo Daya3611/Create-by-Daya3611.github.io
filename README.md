@@ -4,6 +4,10 @@
     <head>
         <link rel="icon" href="em3.png" type="image/png">
         <title>Encouraging Mindset</title>
+        <script>
+            alert ("WELCOME TO EXCELLENT COMPUTER INSTITUTE")
+        </script>
+    </head>
         <body>
             
            <h1 style="text-align: center;"><img src="em3.png" width="60" height="60">Encouraging Mindset</h1>
