@@ -7,7 +7,7 @@
             
            <h1 style="text-align: center;"><img src="em3.png" width="60" height="60">Encouraging Mindset</h1>
         <p>
-           <h2> Follow On instagram</h2> 
+           <h1> Follow On instagram</h2> 
             <!--insta link-->
             <a href="https://www.instagram.com/encouraging_mindset_/"><img src="em3.png" width="50" height="50">@encouraging_mindset_</a> <img src="emqr.png" width="100" height="100">
 
