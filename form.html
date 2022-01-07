@@ -1,101 +1,189 @@
- <form>
-                First Name:-
-                    <input type="text" placeholder="ENTER FIRST NAME" required><br><br>
-                    last Name:-
-                    <input type="text"placeholder="ENTER LAST NAME" required><br><br>
-                    Middle Name:-
-                    <input type="text"placeholder="ENTER MIDDLE NAME" required><br><br>
-                    colour:-
-                    <input type="color"><br><br>
-                    Birth Date:-
-                    <input type="date" required><br><br>
-                    email:-
-                    <input type="email required  size="30"><br><br>
-                     Mobile Number:-
-                    <Select>
-                         <option>--Select--</option>
-                        <option>+91</option>
-                    </select>
-                    <input type="mobile number" required><br><br>
-                                               
-                    Select Age:-
-                    <select>
-                        <option selected>15</option>
-                        <option>16</option>
-                        <option>17</option>
-                        <option>18</option>
-                        <option>19</option>
-                        <option>20</option>
-                        <option>21</option>
-                        <option>22</option>
-                        <option>23</option>
-                        <option>24</option>
-                        <option>25</option>
-                        <option>26</option>
-                        <option>27</option>
-                        <option>28</option>
-                        <option>29</option>
-                        <option>30</option>
-                        <option>32</option>
-                        <option>33</option> 
-                        <option>34</option>
-                        <option>35</option>
-                        <option>36</option>
-                        <option>37</option>
-                        <option>38</option>
-                        <option>39</option>
-                        <option>40</option>
-                       
-                    </select><br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="eci.jpg" type="image/jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmition Form</title>
+    <link rel="stylesheet" type="text/css" href="Form.css">
+    <link rel="html" type="text/html" href="navigaton.html">
+</head>
+<body>
+    <p>
+         <!--Addmition Form-->
+         <div class="conatainer">
+            <h2>EXCELLENT COMPUTER INSTITUTE</h2>
+         <h1>Addmition Form </h1>
+         <meta charset="UTF-8" />
+	<meta name="viewport" content=
+		"width=device-width,
+		initial-scale=1.0" />
 
-                    Select Course:- 
-                    <select>
-                                               
-                        <option selected>--Select Course--</option>
-                        <option>BCC</option>
-                        <option>Tally Erp.9</option>
-                        <option>Tally Prime</option>
-                        <option>Advance Excel</option>
-                        <option>Ethical Hacking</option>
-                        <option>C++</option>
-                        <option>Java</option>
-                        <option>PHP</option>
-                        <option>HTML/CSS</option>
-                                               
-                    </select>
-                        <br><br>
+	<title>Digital Clock</title>
 
-                    Gender:-
-                    <input type ="radio"  name="gender"> Male
-                    <input type ="radio" name="gender"> Female
-                    <input type ="radio" name="gender"> Other <br><br>
-                    password:-
-                    <input type="password"required><br><br>
-                    Time:-
-                    <input type=" time">
-                    <input type ="radio"  name="Time"> AM
-                    <input type ="radio" name="Time">PM<br><br>
-                    URL:-
-                    <input type="url"required size="30"><br><br>
-                    Range:
-                    <input type="range"><br><br>
-                    
-                    ID PROOF:-
-                    
-                    <br><br>
+	<style>
+		#clock {
+			font-size: 50px;
+			width: 300px;
+			margin: 20px;
+			text-align: center;
+			border: 2px solid black;
+			border-radius: 20px;
+            
+		}
+	</style>
+</head>
+
+<body>
+	<div id="clock">8:10:45</div>
+
+	<script>
+		setInterval(showTime, 50);
+		function showTime() {
+			let time = new Date();
+			let hour = time.getHours();
+			let min = time.getMinutes();
+			let sec = time.getSeconds();
+			am_pm = "AM";
+
+			if (hour > 12) {
+				hour -= 12;
+				am_pm = "PM";
+			}
+			if (hour == 0) {
+				hr = 12;
+				am_pm = "AM";
+			}
+
+			hour = hour < 10 ? "0" + hour : hour;
+			min = min < 10 ? "0" + min : min;
+			sec = sec < 10 ? "0" + sec : sec;
+
+			let currentTime = hour + ":"
+				+ min + ":" + sec + am_pm;
+
+			document.getElementById("clock")
+				.innerHTML = currentTime;
+		}
+
+		showTime();
+	</script>
+         <form>
+            First Name:-
+                <input type="text" placeholder="ENTER FIRST NAME" required><br><br>
+                last Name:-
+                <input type="text"placeholder="ENTER LAST NAME" required><br><br>
+                Middle Name:-
+                <input type="text"placeholder="ENTER MIDDLE NAME" required><br><br>
+                colour:-
+                <input type="color"><br><br>
+                Birth Date:-
+                <input type="date" required><br><br>
+                email:-
+                <input type="email required  size="30"><br><br>
+                 Mobile Number:-
+                 <Select>
+                    <option>--Select--</option>
+                   <option>+91</option>
+                   <option>+93</option>
+                   <option>+355</option>
+                   <option>+213</option>
+                   <option>+1-684</option>
+                   <option>+376</option>
+                   <option>+244</option>
+                   <option>+1-264</option>
+                   <option>+672</option>
+                   <option>+1-268</option>
+                   <option>+54</option>
+               </select>
+                <input type="mobile number" required><br><br>
+                Select Age:-
+                <select>
+                    <option selected>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>33</option> 
+                    <option>34</option>
+                    <option>35</option>
+                    <option>36</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
                    
-                    <input type="file"><br><br>
+                </select><br><br>
 
-                    
-                    Enter Your Description:<br>
-                    <textarea rows="10" cols="35"></textarea><br> <br>
-                     
-                    <input type="submit" <go to src="https://www.google.com"></go>
-                    <br> 
-                    <input type="reset" min="1000" max="5000"><br><br>
+                Select Course:- 
+                <select>
+                    <option selected>--Select Course--</option>
+                    <option>CCC</option>
+                    <option>BCC</option>
+                    <option>Tally Erp.9</option>
+                    <option>Tally Prime</option>
+                    <option>Advance Excel</option>
+                    <option>Ethical Hacking</option>
+                    <option>C++</option>
+                    <option>Java</option>
+                    <option>PHP</option>
+                    <option>HTML/CSS</option>
+                </select>
                     <br><br>
-                    <input type="checkbox"> Yes
-                    <input type="checkbox"> No        
-                    
-                   
-            </form>   
+
+                Gender:-
+                <input type ="radio"  name="gender"> Male
+                <input type ="radio" name="gender"> Female
+                <input type ="radio" name="gender"> Other <br><br>
+                password:-
+                <input type="password"required><br><br>
+                Time:-
+                <input type=" clocke">
+                <input type ="radio"  name="Time"> AM
+                <input type ="radio" name="Time">PM<br><br>
+                URL:-
+                <input type="url"required size="30"><br><br>
+                Range:
+                <input type="range"><br><br>
+                
+                ID PROOF:-
+                
+                <br><br>
+               
+                <input type="file"><br><br>
+
+                
+                Enter Your Description:<br>
+                <textarea rows="10" cols="35"></textarea><br> <br>
+                 
+                <input type="submit" <go to src="https://www.google.com"></go>
+                <br> 
+                <input type="reset" min="1000" max="5000"><br><br>
+                <input type="image" src="submit.png" width="150" height="50">
+                <input type="checkbox"> Yes
+                <input type="checkbox"> No        
+             
+
+	
+
+
+               
+        </form>  
+    </div> 
+    </p>
+    
+</body>
+</html>
