@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+body{
+    
+    background: url(bg.jpg);
+    background-size: 200%;
+    background-position: -400px 0px;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 100px;  
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    
+    
+}
+.form{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 30px 30px;
+    font-family:monospace ;
+    font-size: 15px;
+}
+.fdata{
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    color: rgb(112, 106, 106);
+} 
+   
+#fname{
+    direction: rtl;
+    padding: auto;
+}                                                                                                  
+#submit{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(29, 145, 44);
+    border-color:  rgb(29, 145, 44);
+    font-size: 20px;
+    font-family:cursive;
+    
+
+}
+#reset{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(192, 38, 38);
+    border-color:  rgb(195, 38, 38);
+    font-size: 20px;
+    font-family:cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+
+}
+div.conatainer{
+    margin: 70px;
+    align-items: center;
+}
+
+
+div.form{
+    align-items: flex;
+    
+    font-style: italic;
+    font-family: monospace;
+    margin: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    width:750px;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.3)
+       
+}
+.conatainer h1{
+    display: grid;
+    font-size: 35px;
+    font-family: sans-serif;
+    background-color: rgb(113, 230, 161);
+    border: 2px solid black;
+    height: 80px;
+    width: 1330px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.conatainer h2{
+    display:grid;
+    background-color: rgb(186, 195, 245);
+    border: 1px solid black;
+    width:500px;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 425px;
+    
+}
+
+ 
