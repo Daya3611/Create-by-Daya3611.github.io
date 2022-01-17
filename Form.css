@@ -98,16 +98,5 @@ div.form{
     margin-right: 5px;
 }
 
-.conatainer h2{
-    display:grid;
-    background-color: rgb(186, 195, 245);
-    border: 1px solid black;
-    width:500px;
-    height: 50px;
-    justify-content: center;
-    align-content: center;
-    margin-left: 425px;
-    
-}
 
  
