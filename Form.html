@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="eci.jpg" type="image/jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmition Form</title>
+    <link rel="stylesheet" type="text/css" href="Form.css">
+    
+<body>
+    <p>
+         <!--Addmition Form-->
+         <div class="conatainer">
+            <h1>EXCELLENT COMPUTER INSTITUTE</h1>
+            <h2>Addmition Form </h2>  </div>
+         <meta charset="UTF-8" />
+         <meta name="viewport" content=
+            "width=device-width,    
+            initial-scale=1.0"/>
+	<style>
+		#clock {
+			font-size: 50px;
+			width: 300px;
+			margin: 20px;
+			text-align: center;
+			border: 2px solid black;
+			border-radius: 20px;
+            
+		}
+	</style>
+</head>
+
+<body>
+	<div id="clock">8:10:46</div>
+	<script>
+		setInterval(showTime, 50);
+		function showTime() {
+			let time = new Date();
+			let hour = time.getHours();
+			let min = time.getMinutes();
+			let sec = time.getSeconds();
+			am_pm = "AM";
+
+			if (hour > 12) {
+				hour -= 12;
+				am_pm = "PM";
+			}
+			if (hour == 0) {
+				hr = 12;
+				am_pm = "AM";
+			}
+
+			hour = hour < 10 ? "0" + hour : hour;
+			min = min < 10 ? "0" + min : min;
+			sec = sec < 10 ? "0" + sec : sec;
+
+			let currentTime = hour + ":"
+				+ min + ":" + sec + am_pm;
+
+			document.getElementById("clock")
+				.innerHTML = currentTime;
+		}
+
+		showTime();
+	    </script>
+    </div>
+        <div class="form">
+         <form method="post" name="google-sheet">
+                First Name:-
+                <input type="text" placeholder="ENTER FIRST NAME" required id="First name" name="First Name" class="fdata" id="fname">
+                Last Name:-
+                <input type="text"placeholder="ENTER LAST NAME" required id="Last Name" name="Last Name"class="fdata" id="lname"><br><br>
+                Middle Name:-
+                <input type="text"placeholder="ENTER MIDDLE NAME" required id="Middle Name" name="Middle Name" class="fdata" id="mname">
+                Birth Date:-
+                <input type="date" required name="Birth Date" class="fdata" id="dob"><br><br
+                email:-
+                <input type="email required  size="30" name="email" class="fdata" id="email">
+
+                Password:-
+                <input type="password"required name="Password" class="fdata" id="pass">
+                 Mobile Number:-
+                 <Select name="code" class="fdata" id="mobcode">
+                    <option>--Select--</option>
+                   <option>+91</option>
+                   <option>+93</option>
+                   <option>+355</option>
+                   <option>+213</option>
+                   <option>+1-684</option>
+                   <option>+376</option>
+                   <option>+244</option>
+                   <option>+1-264</option>
+                   <option>+672</option>
+                   <option>+1-268</option>
+                   <option>+54</option>
+               </select>
+                <input type="mobile number" required name="Mobile Number" class="fdata" id="mobnum" ><br><br>
+                Select Age:-
+                <select name="Age" class="fdata" id="age">
+                    <option selected  >15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>33</option> 
+                    <option>34</option>
+                    <option>35</option>
+                    <option>36</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                   
+                </select>
+                Select Course:- 
+                <select name="Course" class="fdata" id="Course">
+                    <option selected>--Select Course--</option>
+                    <option>CCC</option>
+                    <option>BCC</option>
+                    <option>Tally Erp.9</option>
+                    <option>Tally Prime</option>
+                    <option>Advance Excel</option>
+                    <option>Ethical Hacking</option>
+                    <option>C++</option>
+                    <option>Java</option>
+                    <option>PHP</option>
+                    <option>HTML/CSS</option>
+                </select>
+                   
+
+                Gender:-
+                <select name="Gender" class="fdata" id="Gender">
+                    <option selected>--Select Gender--</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select><br><br>
+
+                Time:-
+                <input type=" clocke" name="Time" class="fdata" id="time">
+                <select name="AM/PM" class="fdata" id="ampm">
+                    <option selected>--Select--</option>
+                    <option>AM</option>
+                    <option>PM</option>
+                </select>
+                
+
+                Form Filed By:-
+                <input type="text"required name="Form Filed By" id="filername" class="fdata"><br><br>
+                
+                
+                ID PROOF:-
+                <select name="ID PROOF" class="fdata" id="idcard">
+                    <option>--Select ID --</option>
+                    <option>Aadhar Card</option>
+                    <option>Pan Card</option>
+                    <option>Voter id</option>
+                </select>
+                <input type="file" name="id photo" class="fdata" id ="photo"><br>
+                
+                Enter Your Address:-
+                <textarea rows="10" cols="35" name=Address class="fdata" id="Address"></textarea><br>
+               
+                
+
+                You Use Computer Already:-
+                <select name="Already Use Computer" class="fdata" id="computer">
+                    <option selected>--Select--</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select><br>
+                
+                 
+                <input type="submit" name="submit" class="fdata" id="submit">
+                 
+                <input type="reset" name="reset" class="fdata" id="reset">
+            </div>     
+                     
+             
+
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0G9pc007h6ET4npoJHU9htynPy9AOPFE5kOPURqiElg8DHdm0P2dsURpRbF4KZtQh/exec'
+                    const form = document.forms['google-sheet']
+                  
+                    form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                  </script>
+
+            
+          
+        </form>  
+    
+    </p>
+    
+</body>
+</html>
