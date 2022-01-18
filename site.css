@@ -17,7 +17,7 @@ body {
     height: 100vh;
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     
 
    
@@ -169,7 +169,7 @@ section h2{
     margin: auto;
     font-size: 18px;
     font-family: monospace;
-    text-emphasis-color: rgb(255, 0, 0);
+    
     flex: 1;
     padding-left: 300px;
     text-decoration: none;
