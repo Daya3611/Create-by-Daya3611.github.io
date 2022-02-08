@@ -654,6 +654,7 @@ section{
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-right: 55px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -664,6 +665,7 @@ section{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+ 
 }
 
 /* Links inside the dropdown */
@@ -672,6 +674,7 @@ section{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+
 }
 
 /* Change color of dropdown links on hover */
@@ -682,3 +685,4 @@ section{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #ffffff;}
+
