@@ -208,7 +208,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(e-img.jpeg) no-repeat;
+    background:url(BGDPL.C ) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -228,7 +228,7 @@ section{
     font-weight: lighter;
     line-height: 1.8;
     padding:1rem 0;
-    color:rgb(110, 71, 71);
+    color:rgb(0, 0, 0);
 }
 
 .about .row{
@@ -752,7 +752,7 @@ section{
       
       }
       
-      @keyframes light{
+      /* @keyframes light{
         0%{
           color:rgb(219, 144, 30);
       
@@ -861,5 +861,4 @@ section{
       .content ul li:nth-child(28) {
         animation-delay: 4.7s;
       }
-       
-      
+        */
